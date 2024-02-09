@@ -1,0 +1,60 @@
+NodeJS version: v17.9.1
+NPM version: 8.11.0
+Yarn version: 22.19
+Git version: 2.30.2
+customer@sparkedhost:~# if [[ -d .git ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then npm install ${NODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then npm install --production; fi; node /home/container/${STARTUP_FILE}
+[?25l[[100;90m..................[0m] \ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] / idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 2[0m[K[[100;90m..................[0m] / idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] \ idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[100;90m..................[0m] - idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 1846ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] / reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] / reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] | reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] / reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] / reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] / reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] / reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] / reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] / reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] - reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m#########[0m[100;90m.........[0m] - reify:@sapphire/async-queue: [7msill[0m [35maudit[0m bulk request {[0m[K[[107;97m##############[0m[100;90m....[0m] | reify:@sapphire/async-queue: [32;40mhttp[0m [35mfetch[0m GET 200 https://[0m[K[[107;97m##############[0m[100;90m....[0m] | reify:@sapphire/async-queue: [32;40mhttp[0m [35mfetch[0m GET 200 https://[0m[K[[107;97m##############[0m[100;90m....[0m] | reify:@sapphire/async-queue: [32;40mhttp[0m [35mfetch[0m GET 200 https://[0m[K[[107;97m##############[0m[100;90m....[0m] \ reify:@sapphire/async-queue: [32;40mhttp[0m [35mfetch[0m GET 200 https://[0m[K[[107;97m##############[0m[100;90m....[0m] - reify:@sapphire/async-queue: [32;40mhttp[0m [35mfetch[0m GET 200 https://[0m[K[[107;97m##############[0m[100;90m....[0m] - reify:@sapphire/async-queue: [32;40mhttp[0m [35mfetch[0m GET 200 https://[0m[K[[107;97m##############[0m[100;90m....[0m] - reify:@sapphire/async-queue: [32;40mhttp[0m [35mfetch[0m GET 200 https://[0m[K[[107;97m##################[0m] - reify:discord.js: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.np[0m[K[[107;97m##################[0m] - reify:discord.js: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.np[0m[K[[107;97m##################[0m] | reify:discord.js: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.np[0m[K[[107;97m##################[0m] | reify:discord.js: [32;40mhttp[0m [35mfetch[0m GET 200 https://registry.np[0m[K[K[?25h
+changed 2 packages, and audited 65 packages in 4s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+2 [35m[1mcritical[22m[39m severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m 
+[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m New [33mminor[39m version of npm available! [31m8.11.0[39m -> [32m8.19.2[39m
+[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m Changelog: [36mhttps://github.com/npm/cli/releases/tag/v8.19.2[39m
+[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m Run [32mnpm install -g npm@8.19.2[39m to update!
+[0m[37;40mnpm[0m [0m[36;40mnotice[0m[35m[0m 
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 4ms[0m[K[[100;90m..................[0m] - idealTree: [7msill[0m [35mlogfile[0m start cleaning logs, removing 1[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 250ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 250ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 250ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 250ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 250ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 250ms[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 250ms[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 250ms[0m[K[K[?25h
+up to date, audited 65 packages in 2s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+2 [35m[1mcritical[22m[39m severity vulnerabilities
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+BLOBBOT IN THE HOOUUUSEEE
+Connected to mongo!
+(node:80) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Client]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:80) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+Running command &assking
+Running command &assking
+Running command &assking
+/home/container/node_modules/mongodb/lib/operations/db_ops.js:222
+    return callback(new MongoError('topology was destroyed'));
+                    ^
+
+MongoError: topology was destroyed
+    at executeCommand (/home/container/node_modules/[4mmongodb[24m/lib/operations/db_ops.js:222:21)
+    at FindOneAndUpdateOperation.execute (/home/container/node_modules/[4mmongodb[24m/lib/operations/find_and_modify.js:107:5)
+    at executeOperation (/home/container/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:77:17)
+    at Collection.findOneAndUpdate (/home/container/node_modules/[4mmongodb[24m/lib/collection.js:1737:10)
+    at NativeCollection.<computed> [as findOneAndUpdate] (/home/container/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/collection.js:217:28)
+    at model.Query.Query._findAndModify (/home/container/node_modules/[4mmongoose[24m/lib/query.js:3590:31)
+    at model.Query.<anonymous> (/home/container/node_modules/[4mmongoose[24m/lib/query.js:3028:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (/home/container/node_modules/[4mmongoose[24m/lib/helpers/query/wrapThunk.js:16:8)
+    at /home/container/node_modules/[4mkareem[24m/index.js:370:33
+[90m    at processTicksAndRejections (node:internal/process/task_queues:78:11)[39m
+
+Node.js v17.9.1

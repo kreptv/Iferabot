@@ -1,0 +1,100 @@
+Running command &bleed
+Running command &roll
+Running command &roll
+Running command &bleed
+Running command &bleed
+Running command &bleed
+Running command &bleed
+Running command &bleed
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &assking
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &retrievecoins
+Running command &retrievecoins
+Running command &retrievecoins
+Running command &retrievecoins
+Running command &retrievecoins
+Running command &bleed
+Running command &bleed
+Running command &blobhelp
+Running command &addblob
+Running command &addicon
+Running command &addimage
+Running command &addalignment
+Running command &addborntypes
+Collected 1 items
+Running command &addartprompts
+Running command &addbleed
+Running command &addvoucherlist
+Collected 1 items
+Running command &p
+Running command &p
+Running command &addblob
+Running command &addimage
+Running command &addicon
+Running command &addalignment
+Running command &addborntypes
+Collected 1 items
+Running command &addstats
+Running command &addartprompts
+Running command &addbleed
+Running command &addvoucherlist
+Running command &addvoucherlist
+Collected 1 items
+Running command &addmutations
+Collected 1 items
+Running command &p
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &assking
+/home/container/node_modules/mongodb/lib/core/sessions.js:695
+    return new MongoError('Cannot use a session that has ended');
+           ^
+
+MongoError: Cannot use a session that has ended
+    at applySession (/home/container/node_modules/[4mmongodb[24m/lib/core/sessions.js:695:12)
+    at _command (/home/container/node_modules/[4mmongodb[24m/lib/core/wireprotocol/command.js:58:17)
+    at command (/home/container/node_modules/[4mmongodb[24m/lib/core/wireprotocol/command.js:28:5)
+    at Object.query (/home/container/node_modules/[4mmongodb[24m/lib/core/wireprotocol/query.js:57:3)
+    at Connection.query (/home/container/node_modules/[4mmongodb[24m/lib/cmap/connection.js:175:8)
+    at /home/container/node_modules/[4mmongodb[24m/lib/core/sdam/server.js:309:12
+    at Object.callback (/home/container/node_modules/[4mmongodb[24m/lib/cmap/connection_pool.js:345:7)
+    at processWaitQueue (/home/container/node_modules/[4mmongodb[24m/lib/cmap/connection_pool.js:468:23)
+    at /home/container/node_modules/[4mmongodb[24m/lib/cmap/connection_pool.js:261:28
+[90m    at processTicksAndRejections (node:internal/process/task_queues:78:11)[39m
+
+Node.js v17.9.1

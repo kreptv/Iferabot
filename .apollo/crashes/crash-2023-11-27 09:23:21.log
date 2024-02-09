@@ -1,0 +1,89 @@
+NodeJS version: v17.9.1
+NPM version: 8.11.0
+Yarn version: 22.19
+Git version: 2.30.2
+Discord.js version: 13.16.0
+customer@sparkedhost:~# if [[ -d .git ]]; then git pull; fi; if [[ ! -z ${NODE_PACKAGES} ]]; then npm install ${NODE_PACKAGES}; fi; if [ -f /home/container/package.json ]; then npm install --production; fi; node /home/container/${STARTUP_FILE}
+[?25l[[100;90m..................[0m] \ reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[100;90m..................[0m] / idealTree:container: [7msill[0m [35midealTree[0m buildDeps[0m[K[[107;97m#########[0m[100;90m.........[0m] \ idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 353ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 353ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 353ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 353ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 353ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 353ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 353ms[0m[K[K[?25h
+up to date, audited 65 packages in 1s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m4[22m[39m vulnerabilities (3 [33m[1mmoderate[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mconfig[0m production Use `--omit=dev` instead.
+[0m[?25l[[100;90m..................[0m] | reify: [32;40mtiming[0m [35marborist:ctor[0m Completed in 1ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 89ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 89ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 89ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 89ms[0m[K[[107;97m#########[0m[100;90m.........[0m] - idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 89ms[0m[K[[107;97m#########[0m[100;90m.........[0m] / idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 89ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 89ms[0m[K[[107;97m#########[0m[100;90m.........[0m] | idealTree: [32;40mtiming[0m [35midealTree[0m Completed in 89ms[0m[K[K[?25h
+up to date, audited 65 packages in 976ms
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m4[22m[39m vulnerabilities (3 [33m[1mmoderate[22m[39m, 1 [35m[1mcritical[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+BLOBBOT IN THE HOOUUUSEEE
+Connected to mongo!
+(node:94) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Client]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:94) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+Running command &assking
+Running command &roll
+Running command &help
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &roll
+Running command &artpromptblob
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &p
+Running command &help
+(node:94) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 12 messageCreate listeners added to [Client]. Use emitter.setMaxListeners() to increase limit
+Running command &retrievecoins
+Running command &retrievecoins
+Running command &retrievecoins
+Running command &retrievecoins
+Running command &retrievecoins
+Running command &assking
+/home/container/node_modules/mongodb/lib/core/sdam/topology.js:1009
+    drainWaitQueue(topology[kWaitQueue], new MongoError('Topology is closed, please connect'));
+                                         ^
+
+MongoError: Topology is closed, please connect
+    at processWaitQueue (/home/container/node_modules/[4mmongodb[24m/lib/core/sdam/topology.js:1009:42)
+    at NativeTopology.selectServer (/home/container/node_modules/[4mmongodb[24m/lib/core/sdam/topology.js:448:5)
+    at executeWithServerSelection (/home/container/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:137:12)
+    at executeOperation (/home/container/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:75:7)
+    at Cursor._initializeCursor (/home/container/node_modules/[4mmongodb[24m/lib/core/cursor.js:531:7)
+    at Cursor._initializeCursor (/home/container/node_modules/[4mmongodb[24m/lib/cursor.js:184:11)
+    at nextFunction (/home/container/node_modules/[4mmongodb[24m/lib/core/cursor.js:734:10)
+    at Cursor._next (/home/container/node_modules/[4mmongodb[24m/lib/core/cursor.js:201:5)
+    at /home/container/node_modules/[4mmongodb[24m/lib/cursor.js:247:14
+    at maybePromise (/home/container/node_modules/[4mmongodb[24m/lib/utils.js:665:3)
+    at Cursor.next (/home/container/node_modules/[4mmongodb[24m/lib/cursor.js:232:12)
+    at FindOneOperation.execute (/home/container/node_modules/[4mmongodb[24m/lib/operations/find_one.js:27:14)
+    at executeOperation (/home/container/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:77:17)
+    at Collection.<anonymous> (/home/container/node_modules/[4mmongodb[24m/lib/collection.js:1089:12)
+    at Collection.deprecated [as findOne] (/home/container/node_modules/[4mmongodb[24m/lib/utils.js:584:15)
+    at NativeCollection.<computed> [as findOne] (/home/container/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/collection.js:217:28)
+
+Node.js v17.9.1

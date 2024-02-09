@@ -1,0 +1,100 @@
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &p
+Running command &p
+Running command &assking
+Running command &assking
+Running command &p
+Running command &p
+Running command &bloblist
+Running command &bloblist
+Running command &bloblist
+Running command &coinflip
+Running command &coinflip
+Running command &coinflip
+Running command &pat
+Running command &coinflip
+Running command &assking
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &assking
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &p
+Running command &b
+Running command &b
+Running command &p
+Running command &b
+Running command &p
+Running command &p
+Running command &p
+Running command &p
+Running command &p
+Running command &b
+Running command &p
+Running command &assking
+Running command &addblob
+Running command &addicon
+Running command &p
+Running command &addimage
+Running command &p
+Running command &say
+Running command &addicon
+Running command &say
+Running command &addfriendzy
+Running command &addblobfull
+Running command &say
+Running command &say
+Running command &say
+Running command &say
+Running command &p
+Running command &blobhelp
+Running command &addblob
+Running command &addimage
+Running command &p
+Running command &addicon
+Running command &addartprompts
+Running command &addvoucherlist
+Running command &addvoucherlist
+Collected 1 items
+Running command &addvoucherlist
+Collected 1 items
+Running command &assking
+Running command &p
+Running command &b
+Running command &b
+/home/container/blobprofiles.js:463
+                      var name = result[1].userId
+                                           ^
+
+TypeError: Cannot read properties of undefined (reading 'userId')
+    at /home/container/blobprofiles.js:463:44
+    at runMicrotasks (<anonymous>)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+    at async /home/container/blobprofiles.js:452:15
+
+Node.js v17.9.1

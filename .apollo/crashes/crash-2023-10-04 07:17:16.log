@@ -1,0 +1,100 @@
+up to date, audited 65 packages in 922ms
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+[31m[1m5[22m[39m vulnerabilities (4 [33m[1mmoderate[22m[39m, 1 [31m[1mhigh[22m[39m)
+
+To address all issues, run:
+  npm audit fix
+
+Run `npm audit` for details.
+BLOBBOT IN THE HOOUUUSEEE
+Connected to mongo!
+(node:94) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 11 message listeners added to [Client]. Use emitter.setMaxListeners() to increase limit
+(Use `node --trace-warnings ...` to show where the warning was created)
+Running command &roll
+(node:94) DeprecationWarning: The message event is deprecated. Use messageCreate instead
+Running command &p
+Running command &bloblist
+Running command &bloblist
+Running command &bleed
+Running command &assking
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &bleed
+Running command &bleed
+Running command &bleed
+Running command &bleed
+Running command &p
+Running command &bleed
+Running command &p
+Running command &p
+Running command &assking
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &assking
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &roll
+Running command &assking
+Running command &p
+Running command &roll
+Running command &assking
+Running command &help
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &assking
+Running command &help
+(node:94) MaxListenersExceededWarning: Possible EventEmitter memory leak detected. 12 messageCreate listeners added to [Client]. Use emitter.setMaxListeners() to increase limit
+Running command &bloblist
+Running command &p
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &p
+Running command &p
+Running command &p
+Running command &roll
+Running command &help
+Running command &addblob
+Running command &addicon
+Running command &addimage
+Running command &addalignment
+Running command &addborntypes
+Running command &addborntypes
+Running command &addartprompts
+Collected 1 items
+Running command &addvoucherlist
+Collected 1 items
+Running command &addbleed
+Running command &p
+Running command &p
+node:internal/errors:465
+    ErrorCaptureStackTrace(err);
+    ^
+
+Error: querySrv ESERVFAIL _mongodb._tcp.iferabot.iexmd.mongodb.net
+[90m    at QueryReqWrap.onresolve [as oncomplete] (node:dns:256:19)[39m {
+  errno: [90mundefined[39m,
+  code: [32m'ESERVFAIL'[39m,
+  syscall: [32m'querySrv'[39m,
+  hostname: [32m'_mongodb._tcp.iferabot.iexmd.mongodb.net'[39m
+}
+
+Node.js v17.9.1

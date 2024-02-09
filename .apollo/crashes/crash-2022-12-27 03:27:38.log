@@ -1,0 +1,100 @@
+Running command &bloblist
+Running command &p
+Running command &p
+Running command &p
+Running command &bloblist
+Running command &say
+Running command &say
+Error trying to send:  TypeError: Cannot read properties of null (reading 'id')
+    at /home/container/say.js:62:44
+    at runMicrotasks (<anonymous>)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+    at async /home/container/say.js:58:11
+Running command &say
+Running command &say
+Error trying to send:  TypeError: Cannot read properties of null (reading 'id')
+    at /home/container/say.js:62:44
+    at runMicrotasks (<anonymous>)
+[90m    at processTicksAndRejections (node:internal/process/task_queues:96:5)[39m
+    at async /home/container/say.js:58:11
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &artpromptblob
+Running command &roll
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &mini
+Running command &p
+Running command &roll
+Running command &assking
+Running command &assking
+Running command &assking
+Running command &assking
+/home/container/node_modules/mongodb/lib/core/sdam/topology.js:1009
+    drainWaitQueue(topology[kWaitQueue], new MongoError('Topology is closed, please connect'));
+                                         ^
+
+MongoError: Topology is closed, please connect
+    at processWaitQueue (/home/container/node_modules/[4mmongodb[24m/lib/core/sdam/topology.js:1009:42)
+    at NativeTopology.selectServer (/home/container/node_modules/[4mmongodb[24m/lib/core/sdam/topology.js:448:5)
+    at executeWithServerSelection (/home/container/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:137:12)
+    at executeOperation (/home/container/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:75:7)
+    at Cursor._initializeCursor (/home/container/node_modules/[4mmongodb[24m/lib/core/cursor.js:531:7)
+    at Cursor._initializeCursor (/home/container/node_modules/[4mmongodb[24m/lib/cursor.js:184:11)
+    at nextFunction (/home/container/node_modules/[4mmongodb[24m/lib/core/cursor.js:734:10)
+    at Cursor._next (/home/container/node_modules/[4mmongodb[24m/lib/core/cursor.js:201:5)
+    at /home/container/node_modules/[4mmongodb[24m/lib/cursor.js:247:14
+    at maybePromise (/home/container/node_modules/[4mmongodb[24m/lib/utils.js:665:3)
+    at Cursor.next (/home/container/node_modules/[4mmongodb[24m/lib/cursor.js:232:12)
+    at FindOneOperation.execute (/home/container/node_modules/[4mmongodb[24m/lib/operations/find_one.js:27:14)
+    at executeOperation (/home/container/node_modules/[4mmongodb[24m/lib/operations/execute_operation.js:77:17)
+    at Collection.<anonymous> (/home/container/node_modules/[4mmongodb[24m/lib/collection.js:1089:12)
+    at Collection.deprecated [as findOne] (/home/container/node_modules/[4mmongodb[24m/lib/utils.js:584:15)
+    at NativeCollection.<computed> [as findOne] (/home/container/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/collection.js:217:28)
+
+Node.js v17.9.1
